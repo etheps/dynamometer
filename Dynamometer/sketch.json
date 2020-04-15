@@ -1,0 +1,18 @@
+{
+  "cpu": {
+    "fqbn": "arduino:megaavr:nona4809:mode=on",
+    "name": "Arduino Nano Every",
+    "type": "serial"
+  },
+  "secrets": [],
+  "included_libs": [
+    {
+      "name": "ssd1306",
+      "version": "1.8.2"
+    },
+    {
+      "name": "Adafruit SSD1306",
+      "version": "2.2.1"
+    }
+  ]
+}
