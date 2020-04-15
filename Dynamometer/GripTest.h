@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Author: Ethan Epstein
  * Email: ethanepstein@utexas.edu
  * Date: Spring 2020
@@ -139,7 +139,7 @@ const unsigned char testImage[] PROGMEM = {
 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
 };
 
-const double standardsM[12][2] PROGMEM = {
+const double standardsM[12][2] = {
   {99.6, 135.6},
   {97.7, 140.3},
   {97.2, 135.6},
@@ -154,7 +154,7 @@ const double standardsM[12][2] PROGMEM = {
   {55.2, 68.4}
 };
 
-const double standardsW[12][2] PROGMEM = {
+const double standardsW[12][2] = {
   {58.9, 75.8},
   {65.1, 83.9},
   {63.8, 85.1},
