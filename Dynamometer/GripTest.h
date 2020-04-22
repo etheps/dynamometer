@@ -69,6 +69,11 @@ private:
       case FEMALE: return "FEMALE";
    }
   }
+  
+  /**
+   * Prints string on header of display.
+  **/
+  static void headerPrint(String string, int size);
  
 public:
 
